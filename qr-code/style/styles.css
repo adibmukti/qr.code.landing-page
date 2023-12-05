@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+    background-color: var(--Light-gray);
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+}
+
+.title{
+    padding: 1rem 0;
+    margin: 0px 50px;
+    text-align: center;
+    font-size: 29px;
+}
+
+.card {
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 0px 8px var(--Dark-blue);
+  }
+
+.hero-image{
+    width: 100%;
+    padding: 25px;
+  }
+
+.title-description{
+    padding: 0;
+    margin: 0px 50px;
+    text-align: center;
+    color: var(--Grayish-blue);
+    line-height: 25px;
+    font-size: 17px;
+}
